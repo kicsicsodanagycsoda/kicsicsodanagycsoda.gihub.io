@@ -1,0 +1,14 @@
+title: Kicsi csoda, nagy csoda
+baseurl: ""
+url: "https://www.kicsicsodanagycsoda.hu"
+permalink: /:categories/:title
+future: true
+exclude:
+- README.md
+navigation:
+- text: Home
+  url: /
+env: production
+plugins:
+sass:
+  style: compressed
